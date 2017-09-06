@@ -25,7 +25,7 @@ public:
     }
 };
 
-int main(){
+int main14(){
     Solution so ;
     std::vector<std::string> v = {"123","1234"};
     std::string text = so.longestCommonPrefix(v);
