@@ -10,6 +10,7 @@
 		9526D7381F6132920090C653 /* main21.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9526D7361F6132920090C653 /* main21.cpp */; };
 		9526D73B1F617B680090C653 /* main26.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9526D7391F617B680090C653 /* main26.cpp */; };
 		9526D73E1F61830A0090C653 /* main27.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9526D73C1F61830A0090C653 /* main27.cpp */; };
+		9526D7411F6276DE0090C653 /* main6.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9526D73F1F6276DE0090C653 /* main6.cpp */; };
 		95328A1B1F5FA4FD001AE7F1 /* main22.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95328A191F5FA4FD001AE7F1 /* main22.cpp */; };
 		955E7B881F5E9536000BC072 /* main13.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 955E7B871F5E9536000BC072 /* main13.cpp */; };
 		955E7B8A1F5E968F000BC072 /* main14.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 955E7B891F5E968F000BC072 /* main14.cpp */; };
@@ -31,6 +32,7 @@
 		9526D7361F6132920090C653 /* main21.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main21.cpp; sourceTree = "<group>"; };
 		9526D7391F617B680090C653 /* main26.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main26.cpp; sourceTree = "<group>"; };
 		9526D73C1F61830A0090C653 /* main27.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main27.cpp; sourceTree = "<group>"; };
+		9526D73F1F6276DE0090C653 /* main6.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main6.cpp; sourceTree = "<group>"; };
 		95328A191F5FA4FD001AE7F1 /* main22.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main22.cpp; sourceTree = "<group>"; };
 		955E7B871F5E9536000BC072 /* main13.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main13.cpp; sourceTree = "<group>"; };
 		955E7B891F5E968F000BC072 /* main14.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main14.cpp; path = ../main14.cpp; sourceTree = "<group>"; };
@@ -67,10 +69,11 @@
 		95FE07A91F5E8918007400D8 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
-				955E7B891F5E968F000BC072 /* main14.cpp */,
+				9526D73F1F6276DE0090C653 /* main6.cpp */,
 				955E7B871F5E9536000BC072 /* main13.cpp */,
-				95328A191F5FA4FD001AE7F1 /* main22.cpp */,
+				955E7B891F5E968F000BC072 /* main14.cpp */,
 				9526D7361F6132920090C653 /* main21.cpp */,
+				95328A191F5FA4FD001AE7F1 /* main22.cpp */,
 				9526D7391F617B680090C653 /* main26.cpp */,
 				9526D73C1F61830A0090C653 /* main27.cpp */,
 			);
@@ -137,6 +140,7 @@
 				95328A1B1F5FA4FD001AE7F1 /* main22.cpp in Sources */,
 				9526D73E1F61830A0090C653 /* main27.cpp in Sources */,
 				9526D73B1F617B680090C653 /* main26.cpp in Sources */,
+				9526D7411F6276DE0090C653 /* main6.cpp in Sources */,
 				955E7B8A1F5E968F000BC072 /* main14.cpp in Sources */,
 				9526D7381F6132920090C653 /* main21.cpp in Sources */,
 				955E7B881F5E9536000BC072 /* main13.cpp in Sources */,

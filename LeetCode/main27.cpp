@@ -34,7 +34,7 @@ public:
     }
 };
 
-int main(){
+int main27(){
     Solution s;
     std::vector<int> nums;
     
