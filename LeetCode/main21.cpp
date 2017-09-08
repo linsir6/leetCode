@@ -57,7 +57,7 @@ public:
 };
 
 
-int main(){
+int main21(){
     
     std::cout << "static constructor\n";
     return 0;
