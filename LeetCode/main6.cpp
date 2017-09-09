@@ -33,7 +33,7 @@ public:
     }
 };
 
-int main(){
+int main6(){
     
     std::cout<< "test" << std::endl;
     
