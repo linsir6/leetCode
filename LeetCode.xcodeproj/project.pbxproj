@@ -15,6 +15,8 @@
 		95328A1B1F5FA4FD001AE7F1 /* main22.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95328A191F5FA4FD001AE7F1 /* main22.cpp */; };
 		955E7B881F5E9536000BC072 /* main13.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 955E7B871F5E9536000BC072 /* main13.cpp */; };
 		955E7B8A1F5E968F000BC072 /* main14.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 955E7B891F5E968F000BC072 /* main14.cpp */; };
+		959078871F662C2D00F52D6A /* main10.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 959078851F662C2D00F52D6A /* main10.cpp */; };
+		9590788A1F66354700F52D6A /* main11.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 959078881F66354700F52D6A /* main11.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,14 +32,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		9526D7361F6132920090C653 /* main21.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main21.cpp; sourceTree = "<group>"; };
-		9526D7391F617B680090C653 /* main26.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main26.cpp; sourceTree = "<group>"; };
-		9526D73C1F61830A0090C653 /* main27.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main27.cpp; sourceTree = "<group>"; };
-		9526D73F1F6276DE0090C653 /* main6.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main6.cpp; sourceTree = "<group>"; };
-		9526D7421F63C7380090C653 /* main28.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main28.cpp; sourceTree = "<group>"; };
-		95328A191F5FA4FD001AE7F1 /* main22.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main22.cpp; sourceTree = "<group>"; };
-		955E7B871F5E9536000BC072 /* main13.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main13.cpp; sourceTree = "<group>"; };
-		955E7B891F5E968F000BC072 /* main14.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main14.cpp; path = ../main14.cpp; sourceTree = "<group>"; };
+		9526D7361F6132920090C653 /* main21.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main21.cpp; path = LeetCode/main21.cpp; sourceTree = "<group>"; };
+		9526D7391F617B680090C653 /* main26.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main26.cpp; path = LeetCode/main26.cpp; sourceTree = "<group>"; };
+		9526D73C1F61830A0090C653 /* main27.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main27.cpp; path = LeetCode/main27.cpp; sourceTree = "<group>"; };
+		9526D73F1F6276DE0090C653 /* main6.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main6.cpp; path = LeetCode/main6.cpp; sourceTree = "<group>"; };
+		9526D7421F63C7380090C653 /* main28.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main28.cpp; path = LeetCode/main28.cpp; sourceTree = "<group>"; };
+		95328A191F5FA4FD001AE7F1 /* main22.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main22.cpp; path = LeetCode/main22.cpp; sourceTree = "<group>"; };
+		955E7B871F5E9536000BC072 /* main13.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main13.cpp; path = LeetCode/main13.cpp; sourceTree = "<group>"; };
+		955E7B891F5E968F000BC072 /* main14.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main14.cpp; sourceTree = "<group>"; };
+		959078851F662C2D00F52D6A /* main10.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main10.cpp; path = LeetCode/main10.cpp; sourceTree = "<group>"; };
+		959078881F66354700F52D6A /* main11.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main11.cpp; path = LeetCode/main11.cpp; sourceTree = "<group>"; };
 		95FE07A71F5E8918007400D8 /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -55,6 +59,16 @@
 		95FE079E1F5E8918007400D8 = {
 			isa = PBXGroup;
 			children = (
+				9526D73F1F6276DE0090C653 /* main6.cpp */,
+				959078851F662C2D00F52D6A /* main10.cpp */,
+				959078881F66354700F52D6A /* main11.cpp */,
+				955E7B871F5E9536000BC072 /* main13.cpp */,
+				955E7B891F5E968F000BC072 /* main14.cpp */,
+				9526D7361F6132920090C653 /* main21.cpp */,
+				95328A191F5FA4FD001AE7F1 /* main22.cpp */,
+				9526D7391F617B680090C653 /* main26.cpp */,
+				9526D73C1F61830A0090C653 /* main27.cpp */,
+				9526D7421F63C7380090C653 /* main28.cpp */,
 				95FE07A91F5E8918007400D8 /* LeetCode */,
 				95FE07A81F5E8918007400D8 /* Products */,
 			);
@@ -71,14 +85,6 @@
 		95FE07A91F5E8918007400D8 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
-				9526D73F1F6276DE0090C653 /* main6.cpp */,
-				955E7B871F5E9536000BC072 /* main13.cpp */,
-				955E7B891F5E968F000BC072 /* main14.cpp */,
-				9526D7361F6132920090C653 /* main21.cpp */,
-				95328A191F5FA4FD001AE7F1 /* main22.cpp */,
-				9526D7391F617B680090C653 /* main26.cpp */,
-				9526D73C1F61830A0090C653 /* main27.cpp */,
-				9526D7421F63C7380090C653 /* main28.cpp */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -146,7 +152,9 @@
 				9526D73B1F617B680090C653 /* main26.cpp in Sources */,
 				9526D7411F6276DE0090C653 /* main6.cpp in Sources */,
 				955E7B8A1F5E968F000BC072 /* main14.cpp in Sources */,
+				9590788A1F66354700F52D6A /* main11.cpp in Sources */,
 				9526D7381F6132920090C653 /* main21.cpp in Sources */,
+				959078871F662C2D00F52D6A /* main10.cpp in Sources */,
 				955E7B881F5E9536000BC072 /* main13.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
