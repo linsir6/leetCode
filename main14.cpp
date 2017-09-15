@@ -11,26 +11,21 @@
 #include <vector>
 #include <iostream>
 
-class Solution {
-public:
-    std::string longestCommonPrefix(std::vector<std::string> &strs) {
-        if (strs.empty())
-            return "";
-        for (int i = 0; i < strs[0].length(); i++) {
-            for (int j = 1; j < strs.size(); j++)
-                if (i >= strs[j].length() || strs[j][i] != strs[0][i])
-                    return strs[0].substr(0, i);
-        }
-        return strs[0];
+#include <stdio.h>
+int main(void)
+{
+    int i,j,k,n=0;
+    char c[4][5]={{'A','B','A','C','\0'},{'B','A','B','C','\0'},{'C','A','C','B','\0'}};
+    char t;
+    for(i=0;i<3;i++)
+    for(j=0;j<4;j++)
+    {
+        for(k=0;k<4;k++)
+        {  printf("%d -- %s\t",k,c[i]);  /*(k+3)%4,c[(k+3)%4]);*/
+            n++; }
+        printf("\n");
+        t=c[i][i];c[i][i]=c[i][(i+1)%4];c[i][(i+1)%4]=c[i][(i+2)%4];c[i][(i+2)%4]=c[i][(i+3)%4];c[i][(i+3)%4]=t;
     }
-};
-
-int main14(){
-    Solution so ;
-    std::vector<std::string> v = {"123","1234"};
-    std::string text = so.longestCommonPrefix(v);
-    std::cout << "static constructor\n";
-    std::cout << text + "\n";
-    return 0;
+    printf("\n total = %d",n);
+    getchar();
 }
-
