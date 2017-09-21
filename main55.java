@@ -7,13 +7,6 @@ class Main55 {
         return reach >= (nums.length-1) ? true : false;
     }
 }
-<<<<<<< HEAD
 
-//test2
-//test5
-=======
-//testza
-//test3a
->>>>>>> 0718cc375278fb5871cbf83281b19cde5aa38bda
 //merage
 //test merage
