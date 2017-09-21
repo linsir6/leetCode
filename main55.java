@@ -7,5 +7,5 @@ class Main55 {
         return reach >= (nums.length-1) ? true : false;
     }
 }
-
+//merage
 //test merage
