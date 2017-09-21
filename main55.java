@@ -5,9 +5,9 @@ class Main55 {
         for(int i = 1; i < nums.length && reach >= i; i++)
             if(i + nums[i] > reach) reach = i + nums[i];  //贪心策略
         return reach >= (nums.length-1) ? true : false;
-    }
+    }//a
 }
-//testza
-//test3a
-//merage
+//testzazc
+//test3az
+//meragea
 //test meragez
